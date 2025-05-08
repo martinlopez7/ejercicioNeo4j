@@ -14,7 +14,7 @@ const driver = neo4j.driver(
 );
 
 const session = driver.session({
-  database: 'test',
+  database: 'actividadneo4j',
   defaultAccessMode: neo4j.session.WRITE
 });
 
